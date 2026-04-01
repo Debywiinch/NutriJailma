@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nutricionista — consultas online e presenciais, reeducação alimentar e bem-estar." />
+  <title>Jailma Gonçalves | Nutricionista</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="topo">
+    <div class="header__inner">
+      <a href="#topo" class="logo">Jailma Gonçalves</a>
+      <button type="button" class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+      <nav class="nav" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#consultas">Consultas</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__tag">Nutrição e especialização em nutricição psiquiátrica </p>
+        <h1 class="hero__title">Alimentação com propósito, <em>sem radicalismo</em></h1>
+        <p class="hero__text">
+          Consultas personalizadas para você construir uma relação saudável com a comida e alcançar seus objetivos com equilíbrio.
+        </p>
+        <div class="hero__actions">
+          <a href="#contato" class="btn btn--primary">Agendar consulta</a>
+          <a href="#consultas" class="btn btn--ghost">Como funcionam as consultas</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__card">
+          <span class="hero__stat">CRN9</span>
+          <strong>35051</strong>
+          <small>Registro ativo</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sobre" id="sobre">
+      <div class="section__inner">
+        <header class="section__header">
+          <h2>Sobre mim</h2>
+          <p>Formação, experiência e como posso te ajudar</p>
+        </header>
+        <div class="sobre__grid">
+          <div class="sobre__photo">
+            <img
+              class="sobre__img"
+              src="images/jailma-perfil.png"
+              alt="Jailma Gonçalves, nutricionista"
+              width="560"
+              height="700"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="sobre__text">
+            <p>
+              Sou nutricionista formada em <strong>Nutrição</strong> pela Faculdade Pitagoras, com Pós-Graduação em <strong>Psiconutrição</strong> e <strong>MBA em Gestão de Unidades de Alimentares</strong>
+             . Atuo ajudando pessoas a melhorarem hábitos alimentares sem culpa e complanos realistas para o dia a dia.
+            </p>
+            <p>
+              Acredito em evidências científicas, escuta ativa e um acompanhamento próximo — porque cada corpo e cada
+              rotina são únicos.
+            </p>
+            <ul class="sobre__lista">
+              <li>Consulta presencial e online</li>
+              <li>Planos alimentares individualizados</li>
+              <li>Suporte entre consultas (conforme plano)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface servicos" id="servicos">
+      <div class="section__inner">
+        <header class="section__header">
+          <h2>Serviços</h2>
+          <p>Escolha o que faz mais sentido para você</p>
+        </header>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🥗</div>
+            <h3 class="card__title">Consulta inicial</h3>
+            <p class="card__desc">Anamnese completa, avaliação antropométrica (quando indicado) e primeiro plano alimentar.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">📋</div>
+            <h3 class="card__title">Retorno</h3>
+            <p class="card__desc">Acompanhamento para ajustes, metas e dúvidas ao longo do processo.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">💬</div>
+            <h3 class="card__title">Pacote online</h3>
+            <p class="card__desc">Atendimento por vídeo com materiais e orientações práticas para sua rotina.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="consultas" aria-labelledby="consultas-titulo">
+      <div class="page-hero">
+        <div class="page-hero__inner">
+          <p class="page-hero__tag">Informações práticas</p>
+          <h2 id="consultas-titulo" class="page-hero__title">Como funcionam as consultas</h2>
+          <p class="page-hero__lead">
+            Primeira vez ou retorno, presencial ou online: aqui está o passo a passo para você chegar preparado e saber o que esperar.
+          </p>
+          <a href="#contato" class="btn btn--primary">Quero agendar</a>
+        </div>
+      </div>
+
+      <section class="section section--surface">
+        <div class="section__inner">
+          <header class="section__header">
+            <h2>Modalidades</h2>
+            <p>Escolha o formato que se encaixa na sua rotina</p>
+          </header>
+          <div class="cards">
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">🏥</div>
+              <h3 class="card__title">Presencial</h3>
+              <p class="card__desc">Atendimento no consultório, com privacidade e possibilidade de avaliação antropométrica quando indicado.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">💻</div>
+              <h3 class="card__title">Online</h3>
+              <p class="card__desc">Videochamada em horário combinado; ideal para quem prefere atender de casa ou de outra cidade.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">📅</div>
+              <h3 class="card__title">Retornos</h3>
+              <p class="card__desc">Sessões de acompanhamento para revisar o plano, tirar dúvidas e ajustar metas conforme sua evolução.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__inner">
+          <header class="section__header">
+            <h2>Passo a passo</h2>
+            <p>Do primeiro contato ao plano alimentar</p>
+          </header>
+          <ol class="steps">
+            <li class="steps__item">
+              <span class="steps__num">1</span>
+              <div>
+                <h3 class="steps__title">Contato</h3>
+                <p class="steps__text">Você envia mensagem pelo site ou WhatsApp e combina data e modalidade (presencial ou online).</p>
+              </div>
+            </li>
+            <li class="steps__item">
+              <span class="steps__num">2</span>
+              <div>
+                <h3 class="steps__title">Anamnese</h3>
+                <p class="steps__text">Na consulta, conversamos sobre saúde, hábitos, rotina e objetivos — sem julgamentos.</p>
+              </div>
+            </li>
+            <li class="steps__item">
+              <span class="steps__num">3</span>
+              <div>
+                <h3 class="steps__title">Plano</h3>
+                <p class="steps__text">Você recebe orientações e um plano alimentar alinhado à sua realidade (tempo, orçamento e preferências).</p>
+              </div>
+            </li>
+            <li class="steps__item">
+              <span class="steps__num">4</span>
+              <div>
+                <h3 class="steps__title">Acompanhamento</h3>
+                <p class="steps__text">Nos retornos, avaliamos o que funcionou e ajustamos o que for preciso.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section--surface">
+        <div class="section__inner section__inner--narrow">
+          <header class="section__header">
+            <h2>Perguntas frequentes</h2>
+            <p>Dúvidas comuns antes da primeira consulta</p>
+          </header>
+          <div class="faq">
+            <details class="faq__item">
+              <summary class="faq__question">Quanto tempo dura cada consulta?</summary>
+              <p class="faq__answer">A primeira consulta costuma durar cerca de 50 a 60 minutos. Retornos são em geral um pouco mais curtos, conforme combinado.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">Preciso levar algum exame?</summary>
+              <p class="faq__answer">Se você tiver exames recentes relacionados à sua queixa ou acompanhamento médico, traga ou envie cópia. A necessidade de novos exames é avaliada caso a caso.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">Você passa dieta fechada?</summary>
+              <p class="faq__answer">O foco é educação alimentar e um plano flexível, com trocas e exemplos de cardápio — não “cardápio engessado” sem adaptação à sua vida.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">Como remarcar ou cancelar?</summary>
+              <p class="faq__answer">Política de remarcação e cancelamento deve ser combinada por mensagem; ajuste os prazos aqui conforme a regra do seu consultório.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-banner">
+        <div class="section__inner cta-banner__inner">
+          <h2 class="cta-banner__title">Pronto para começar?</h2>
+          <p class="cta-banner__text">Fale comigo pelo formulário abaixo ou direto pelo WhatsApp.</p>
+          <div class="hero__actions cta-banner__actions">
+            <a href="#contato" class="btn btn--primary">Ir para contato</a>
+            <a href="#topo" class="btn btn--ghost">Voltar ao início</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="section depoimentos" id="depoimentos">
+      <div class="section__inner">
+        <header class="section__header">
+          <h2>Depoimentos</h2>
+          <p>O que dizem quem já foi atendido</p>
+        </header>
+        <div class="depoimentos__slider" data-slider>
+          <div class="depoimentos__track" data-track>
+            <blockquote class="quote">
+              <p>“Finalmente entendi como comer bem sem ficar obcecada por dieta. O acompanhamento mudou minha relação com a comida.”</p>
+              <footer>— Maria S.</footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p>“Plano claro, sem mil suplementos. Resultados sustentáveis e muita paciência nas dúvidas do dia a dia.”</p>
+              <footer>— João P.</footer>
+            </blockquote>
+            <blockquote class="quote">
+              <p>“Atendimento online super organizado. Receitas fáceis e que cabem no meu orçamento.”</p>
+              <footer>— Ana L.</footer>
+            </blockquote>
+          </div>
+          <div class="depoimentos__controls">
+            <button type="button" class="depo-btn depo-btn--prev" data-prev aria-label="Depoimento anterior">‹</button>
+            <div class="depoimentos__dots" data-dots></div>
+            <button type="button" class="depo-btn depo-btn--next" data-next aria-label="Próximo depoimento">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface contato" id="contato">
+      <div class="section__inner contato__grid">
+        <div>
+          <header class="section__header section__header--left">
+            <h2>Contato</h2>
+            <p>Vamos conversar? Preencha o formulário ou fale direto pelo WhatsApp.</p>
+          </header>
+          <form class="form" id="form-contato" novalidate>
+            <label class="form__field">
+              <span>Nome</span>
+              <input type="text" name="nome" required autocomplete="name" placeholder="Seu nome" />
+            </label>
+            <label class="form__field">
+              <span>E-mail</span>
+              <input type="email" name="email" required autocomplete="email" placeholder="seu@email.com" />
+            </label>
+            <label class="form__field">
+              <span>Mensagem</span>
+              <textarea name="mensagem" rows="4" required placeholder="Conte um pouco do que você busca"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensagem</button>
+            <p class="form__feedback" data-feedback role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <aside class="contato__aside">
+          <div class="contato__box">
+            <h3>WhatsApp</h3>
+            <p>Resposta em horário comercial.</p>
+            <a href="https://wa.link/9y443s" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
+          </div>
+          <div class="contato__box">
+            <h3>Localização</h3>
+            <p>Rua Edson, 450 — Bairro União<br />Belo Horizonte — MG</p>
+            <p class="contato__small">(31) 99247-8304</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>s
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__brand">Jailma Gonçalves | Nutricionista</p>
+      <p class="footer__copy">&copy; <span data-year></span>. Todos os direitos reservados.</p>
+      <p class="footer__dev">Desenvolvido por Débora Silva</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
